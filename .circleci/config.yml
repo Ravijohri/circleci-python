@@ -23,7 +23,7 @@ jobs:
       - run: echo "deploying webpage to server"
 
 workflows:
-  build_and_tests:
+  build_and_test:
     jobs:
       - build
       - test:
