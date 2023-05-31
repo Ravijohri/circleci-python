@@ -20,7 +20,7 @@ jobs:
       - image: cimg/python:3.11
     steps:
       - checkout
-      - run: echo "deploying webpage to server"
+      - run: echo "deploying webpage "
 
 workflows:
   build_and_test:
